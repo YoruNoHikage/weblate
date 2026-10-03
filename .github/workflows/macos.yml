@@ -32,9 +32,9 @@ jobs:
       CI_SKIP_SAML: 1
       HOMEBREW_NO_AUTO_UPDATE: '1'
       # renovate-homebrew-brew
-      HOMEBREW_BREW_REF: d6ca35509427ed7b4e37445054fa343ab90755ec
+      HOMEBREW_BREW_REF: 5665d31fe207c79364a38abb3107d767b0d3884a
       # renovate-homebrew-core
-      HOMEBREW_CORE_REF: 433eb8a8d09d686819326f5f03f9ed98eaf18287
+      HOMEBREW_CORE_REF: 7c87800eff49f966052f7b655146510f9d444ea5
     steps:
     - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       with:
